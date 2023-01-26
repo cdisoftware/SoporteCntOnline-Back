@@ -10,6 +10,12 @@ import lombok.Data;
 @Data
 public class EnvioSmsItCloudEntity implements Serializable{
     @Id
+    @JsonProperty("user")
+    public String user;
+    
+    @JsonProperty("token")
+    public String token;
+    
     @JsonProperty("GSM")
     public String GSM;
 
