@@ -19,38 +19,38 @@ public class PaConsFacPendientePdfXmlEntity {
 
     @Id
     @JsonProperty("IdFactura")
-    private Integer IdFactura;
+    public Integer IdFactura;
 
     @JsonProperty("NumeroFactura")
-    private String NumeroFactura;
+    public String NumeroFactura;
 
     @JsonProperty("NitEmpresa")
-    private String NitEmpresa;
+    public String NitEmpresa;
 
     @JsonProperty("NombreEmpresa")
-    private String NombreEmpresa;
+    public String NombreEmpresa;
 
     @JsonProperty("NitCliente")
-    private String NitCliente;
+    public String NitCliente;
 
     @JsonProperty("MailCliente")
-    private String MailCliente;
+    public String MailCliente;
 
     @JsonProperty("FechaGenerada")
-    private String FechaGenerada;
+    public String FechaGenerada;
 
     @JsonProperty("CUFE")
-    private String CUFE;
+    public String CUFE;
 
     @JsonProperty("Estado")
-    private String Estado;
+    public String Estado;
 
     @JsonProperty("GenDoc")
-    private String GenDoc;
+    public String GenDoc;
 
     @JsonProperty("UrlPdf")
-    private String UrlPdf;
+    public String UrlPdf;
 
     @JsonProperty("UrlXml")
-    private String UrlXml;
+    public String UrlXml;
 }
