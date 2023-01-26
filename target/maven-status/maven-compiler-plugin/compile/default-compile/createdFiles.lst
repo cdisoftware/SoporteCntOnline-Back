@@ -1,3 +1,8 @@
 com\cdi\ServicesFeNe\Comun\FileStorageProperties.class
+com\cdi\ServicesFeNe\Entity\EnvioSmsItCloudEntity.class
+com\cdi\ServicesFeNe\ServicesImplementacion\EnvioSmsItCloudServicesImplemtacion.class
+com\cdi\ServicesFeNe\Controller\Controller.class
+com\cdi\ServicesFeNe\ServicesImplementacion\EnvioSmsItCloudServicesImplemtacion$1.class
 com\cdi\ServicesFeNe\BasicApplication.class
 META-INF\spring-configuration-metadata.json
+com\cdi\ServicesFeNe\Services\EnvioSmsItCloudServices.class
