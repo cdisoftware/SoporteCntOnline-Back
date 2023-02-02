@@ -88,3 +88,4 @@ lint/tmp/
 *.suo
 *.user
 _ReSharper.*
+/target/

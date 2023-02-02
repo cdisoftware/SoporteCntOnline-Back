@@ -2,15 +2,15 @@
   "groups": [
     {
       "name": "file",
-      "type": "com.cdi.ServicesFeNe.Comun.FileStorageProperties",
-      "sourceType": "com.cdi.ServicesFeNe.Comun.FileStorageProperties"
+      "type": "com.cdi.SoporteCntOnlineBack.Comun.FileStorageProperties",
+      "sourceType": "com.cdi.SoporteCntOnlineBack.Comun.FileStorageProperties"
     }
   ],
   "properties": [
     {
       "name": "file.upload-dir",
       "type": "java.lang.String",
-      "sourceType": "com.cdi.ServicesFeNe.Comun.FileStorageProperties"
+      "sourceType": "com.cdi.SoporteCntOnlineBack.Comun.FileStorageProperties"
     }
   ],
   "hints": []
