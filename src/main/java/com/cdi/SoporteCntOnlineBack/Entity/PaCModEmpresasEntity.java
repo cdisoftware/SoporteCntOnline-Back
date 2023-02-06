@@ -87,6 +87,7 @@ public class PaCModEmpresasEntity {
     @JsonProperty("ActEco")
     public String ActEco;
     
+    /*
     @JsonProperty("NumResolucion")
     public String NumResolucion;
     
@@ -151,5 +152,5 @@ public class PaCModEmpresasEntity {
     public String FechaInicioDS;
     
     @JsonProperty("FechaFinDS")
-    public String FechaFinDS;
+    public String FechaFinDS;*/
 }

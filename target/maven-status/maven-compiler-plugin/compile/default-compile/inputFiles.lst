@@ -1,13 +1,20 @@
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\PaCModEmpresasService.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaCconsultaFacturasErrorServiceImplementacion.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaCActivacionDSServiceImplementacion.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaCActivacionFEServiceImplementacion.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaCActivacionNEEntity.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\PaCActivacionFEService.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\EnvioSmsItCloudEntity.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\PaCActivacionNEService.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaConsultaProyectosSoporteServiceImplementacion.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\BasicApplication.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\EnvioSmsItCloudServicesImplemtacion.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaLogConsolaServiceImplementacion.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\PaConsultaEmpresasService.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaCActivacionDSEntity.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\ConsultaInfoUserServiceImplementacion.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaCModEmpresasEntity.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaCActivacionNEServiceImplementacion.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaConsultaEmpresasEntity.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaCModEmpresasServiceImplementacion.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaCconsultaFacturasErrorEntity.java
@@ -16,6 +23,7 @@ C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnline
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\PaLogConsolaService.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Comun\FileStorageProperties.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\PaCconsultaFacturasErrorService.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\PaCActivacionDSService.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\ConsultaInfoUserEntity.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaLogConsolaEntity.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaConsFacPendientePdfXmlEntity.java
@@ -24,4 +32,5 @@ C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnline
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaConsFacPendientePdfXmlServiceImplementacion.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaConsultaEmpresasServiceImplementacion.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\PaConsFacPendientePdfXmlService.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaCActivacionFEEntity.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Controller\Controller.java

@@ -2,6 +2,9 @@ package com.cdi.SoporteCntOnlineBack.Controller;
 
 import com.cdi.SoporteCntOnlineBack.Entity.ConsultaInfoUserEntity;
 import com.cdi.SoporteCntOnlineBack.Entity.EnvioSmsItCloudEntity;
+import com.cdi.SoporteCntOnlineBack.Entity.PaCActivacionDSEntity;
+import com.cdi.SoporteCntOnlineBack.Entity.PaCActivacionFEEntity;
+import com.cdi.SoporteCntOnlineBack.Entity.PaCActivacionNEEntity;
 import com.cdi.SoporteCntOnlineBack.Entity.PaCModEmpresasEntity;
 import com.cdi.SoporteCntOnlineBack.Entity.PaCconsultaFacturasErrorEntity;
 import com.cdi.SoporteCntOnlineBack.Entity.PaConsFacPendientePdfXmlEntity;
@@ -10,6 +13,9 @@ import com.cdi.SoporteCntOnlineBack.Entity.PaConsultaProyectosSoporteEntity;
 import com.cdi.SoporteCntOnlineBack.Entity.PaLogConsolaEntity;
 import com.cdi.SoporteCntOnlineBack.Services.ConsultaInfoUserService;
 import com.cdi.SoporteCntOnlineBack.Services.EnvioSmsItCloudServices;
+import com.cdi.SoporteCntOnlineBack.Services.PaCActivacionDSService;
+import com.cdi.SoporteCntOnlineBack.Services.PaCActivacionFEService;
+import com.cdi.SoporteCntOnlineBack.Services.PaCActivacionNEService;
 import com.cdi.SoporteCntOnlineBack.Services.PaCconsultaFacturasErrorService;
 import com.cdi.SoporteCntOnlineBack.Services.PaConsFacPendientePdfXmlService;
 import com.cdi.SoporteCntOnlineBack.Services.PaConsultaEmpresasService;
@@ -56,6 +62,15 @@ public class Controller {
     
     @Autowired
     PaCconsultaFacturasErrorService servicePaCconsultaFacturasErrorService;
+    
+    @Autowired
+    PaCActivacionFEService servicePaCActivacionFEService;
+    
+    @Autowired
+    PaCActivacionNEService servicePaCActivacionNEService;
+    
+    @Autowired
+    PaCActivacionDSService servicePaCActivacionDSService;
     
     
     @PostMapping("/enviosmsitcloud")
@@ -118,22 +133,22 @@ public class Controller {
             @RequestBody PaCModEmpresasEntity entidad) {
         return servicePaCModEmpresasService.UpdateEmpresa(entidad);
     }
-    //Actualiza datos FacturtacionElectronica
-    @PostMapping("/FeModEmpresa")
-    public String UpdateFE(
-            @RequestBody PaCModEmpresasEntity entidad) {
-        return servicePaCModEmpresasService.ActFE(entidad);
+    //Actualiza Facturacion
+    @PostMapping("/ActFacturacion")
+    public String UpdateFacturacion(
+            @RequestBody PaCActivacionFEEntity entidad) {
+        return servicePaCActivacionFEService.ActivacionFacturacion(entidad);
     }
-    //Actualiza datos Nomina electronica
-    @PostMapping("/NeModEmpresa")
-    public String UpdateNE(
-            @RequestBody PaCModEmpresasEntity entidad) {
-        return servicePaCModEmpresasService.ActNE(entidad);
+    //Actualiza Nomina Electronica
+    @PostMapping("/ActNomina")
+    public String UpdateNomina(
+            @RequestBody PaCActivacionNEEntity entidad) {
+        return servicePaCActivacionNEService.ActivacionNominaElectronica(entidad);
     }
-    //Actualiza datos Documento soporte
-    @PostMapping("/DsModEmpresa")
-    public String UpdateDS(
-            @RequestBody PaCModEmpresasEntity entidad) {
-        return servicePaCModEmpresasService.ActDS(entidad);
+    //Actualiza Documento Soporte
+    @PostMapping("/ActDocumentoSoporte")
+    public String UpdateDocumento(
+            @RequestBody PaCActivacionDSEntity entidad) {
+        return servicePaCActivacionDSService.ActivacionDocumento(entidad);
     }
 }

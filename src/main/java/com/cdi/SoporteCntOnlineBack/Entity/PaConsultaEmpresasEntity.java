@@ -16,15 +16,13 @@ import lombok.Data;
             resultClasses = PaConsultaEmpresasEntity.class)
 })
 public class PaConsultaEmpresasEntity {
-    @Id
-    @JsonProperty("IdCol")
-    public Integer IdCol;
 
-    @JsonProperty("Nombre")
-    public String Nombre;
-    
+    @Id
     @JsonProperty("Nit")
     public String Nit;
+    
+    @JsonProperty("Nombre")
+    public String Nombre;
     
     @JsonProperty("Departamento")
     public String Departamento;
@@ -43,9 +41,6 @@ public class PaConsultaEmpresasEntity {
     
     @JsonProperty("NumResolucion")
     public String NumResolucion;
-    
-    @JsonProperty("NombreSoft")
-    public String NombreSoft;
     
     @JsonProperty("Usuario")
     public String Usuario;
@@ -67,9 +62,6 @@ public class PaConsultaEmpresasEntity {
     
     @JsonProperty("RangoFecFin")
     public String RangoFecFin;
-    
-    @JsonProperty("NumFacturaAct")
-    public String NumFacturaAct;
     
     @JsonProperty("TipoPersona")
     public String TipoPersona;
@@ -115,4 +107,37 @@ public class PaConsultaEmpresasEntity {
     
     @JsonProperty("ActEco")
     public String ActEco;
+    
+    @JsonProperty("PrefijoNE")
+    public String PrefijoNE;
+    
+    @JsonProperty("RangoNED")
+    public String RangoNED;
+    
+    @JsonProperty("RangoNEH")
+    public String RangoNEH;
+    
+    @JsonProperty("ContrasenaNE")
+    public String ContrasenaNE;
+    
+    @JsonProperty("PrefijoNA")
+    public String PrefijoNA;
+    
+    @JsonProperty("NumResolucionDS")
+    public String NumResolucionDS;
+    
+    @JsonProperty("PrefijoDS")
+    public String PrefijoDS;
+    
+    @JsonProperty("RangoDS_D")
+    public String RangoDS_D;
+    
+    @JsonProperty("RangoDS_H")
+    public String RangoDS_H;
+    
+    @JsonProperty("FechaInicioDS")
+    public String FechaInicioDS;
+    
+    @JsonProperty("FechaFinDS")
+    public String FechaFinDS;
 }
