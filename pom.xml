@@ -9,10 +9,10 @@
         <relativePath/>
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>ServicesFeNe</artifactId>
+    <artifactId>SoporteCntOnline-Back</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>ServicesFeNe</name>
+    <name>SoporteCntOnline-Back</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
