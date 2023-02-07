@@ -21,6 +21,9 @@ public class PaConsultaEmpresasEntity {
     @JsonProperty("Nit")
     public String Nit;
     
+    @JsonProperty("IdCol")
+    public Integer IdCol;
+    
     @JsonProperty("Nombre")
     public String Nombre;
     

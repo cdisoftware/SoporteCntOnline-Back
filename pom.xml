@@ -184,7 +184,7 @@
                 <configuration>
                     <xdebug>true</xdebug>
                     <wsdlUrls>
-                        <wsdlUrl>http://www.dneonline.com/calculator.asmx</wsdlUrl>
+                        <wsdlUrl>http://www.dneonline.com/calculator.asmx?WSDL</wsdlUrl>
                     </wsdlUrls>
                 </configuration>
             </plugin>
