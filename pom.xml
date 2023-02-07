@@ -17,6 +17,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <endpointwsdl>http://34.215.136.170/FE_WS_FT/wsCOLFE_FT.asmx?WSDL</endpointwsdl>
     </properties>
 
     <dependencies>
@@ -136,10 +137,28 @@
             <version>2.6</version>
             <type>jar</type>
         </dependency>
+        
+        <dependency>
+            <groupId>org.jvnet.jax-ws-commons.spring</groupId>
+            <artifactId>jaxws-spring</artifactId>
+            <version>1.9</version>
+        </dependency>
+        
+        
+
     </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source />
+                    <target />
+                </configuration>
+            </plugin>
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -157,6 +176,44 @@
                     </excludes>
                 </configuration>
             </plugin>
+            
+            <plugin>
+                <groupId>org.jvnet.jax-ws-commons</groupId>
+                <artifactId>jaxws-maven-plugin</artifactId>
+                <version>2.3</version>
+                <configuration>
+                    <xdebug>true</xdebug>
+                    <wsdlUrls>
+                        <wsdlUrl>http://www.dneonline.com/calculator.asmx</wsdlUrl>
+                    </wsdlUrls>
+                </configuration>
+            </plugin>
+            
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxws-maven-plugin</artifactId>
+                <version>2.6</version>
+                <executions>
+                    <execution>
+                        <id>wsdltoJava</id>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <encoding></encoding>
+                    <verbose>true</verbose>
+                    <sourceDestDir>src/main/java</sourceDestDir>
+                    <wsdlUrls>
+                        <wsdlUrl>${endpointwsdl}</wsdlUrl>
+                    </wsdlUrls>
+                    <vmArgs>
+                        <vmArg>-Djavax.xml.accessExternalSchema=all</vmArg>
+                    </vmArgs>
+                </configuration>
+            </plugin>
+        
         </plugins>
     </build>
 
