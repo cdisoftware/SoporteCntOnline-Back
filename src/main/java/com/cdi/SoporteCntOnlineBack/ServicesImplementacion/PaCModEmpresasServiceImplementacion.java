@@ -147,7 +147,6 @@ public class PaCModEmpresasServiceImplementacion implements PaCModEmpresasServic
             modempresa.registerStoredProcedureParameter("Direccion", String.class, ParameterMode.IN);
             modempresa.registerStoredProcedureParameter("Email", String.class, ParameterMode.IN);
             modempresa.registerStoredProcedureParameter("Telefono", String.class, ParameterMode.IN);
-            modempresa.registerStoredProcedureParameter("NombreSoft", String.class, ParameterMode.IN);
             modempresa.registerStoredProcedureParameter("TipoPersona", String.class, ParameterMode.IN);
             modempresa.registerStoredProcedureParameter("Regimen", String.class, ParameterMode.IN);
             modempresa.registerStoredProcedureParameter("CodPais", String.class, ParameterMode.IN);
@@ -170,7 +169,6 @@ public class PaCModEmpresasServiceImplementacion implements PaCModEmpresasServic
             modempresa.setParameter("Direccion", entidad.getDireccion());
             modempresa.setParameter("Email", entidad.getEmail());
             modempresa.setParameter("Telefono", entidad.getTelefono());
-            modempresa.setParameter("NombreSoft", entidad.getNombreSoft());
             modempresa.setParameter("TipoPersona", entidad.getTipoPersona());
             modempresa.setParameter("Regimen", entidad.getRegimen());
             modempresa.setParameter("CodPais", entidad.getCodPais());
@@ -211,7 +209,6 @@ public class PaCModEmpresasServiceImplementacion implements PaCModEmpresasServic
             modempresa.registerStoredProcedureParameter("Direccion", String.class, ParameterMode.IN);
             modempresa.registerStoredProcedureParameter("Email", String.class, ParameterMode.IN);
             modempresa.registerStoredProcedureParameter("Telefono", String.class, ParameterMode.IN);
-            modempresa.registerStoredProcedureParameter("NombreSoft", String.class, ParameterMode.IN);
             modempresa.registerStoredProcedureParameter("TipoPersona", String.class, ParameterMode.IN);
             modempresa.registerStoredProcedureParameter("Regimen", String.class, ParameterMode.IN);
             modempresa.registerStoredProcedureParameter("CodPais", String.class, ParameterMode.IN);
@@ -234,7 +231,6 @@ public class PaCModEmpresasServiceImplementacion implements PaCModEmpresasServic
             modempresa.setParameter("Direccion", entidad.getDireccion());
             modempresa.setParameter("Email", entidad.getEmail());
             modempresa.setParameter("Telefono", entidad.getTelefono());
-            modempresa.setParameter("NombreSoft", entidad.getNombreSoft());
             modempresa.setParameter("TipoPersona", entidad.getTipoPersona());
             modempresa.setParameter("Regimen", entidad.getRegimen());
             modempresa.setParameter("CodPais", entidad.getCodPais());
