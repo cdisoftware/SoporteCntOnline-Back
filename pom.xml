@@ -143,9 +143,12 @@
             <artifactId>jaxws-spring</artifactId>
             <version>1.9</version>
         </dependency>
-        
-        
-
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
 
     <build>
@@ -204,7 +207,7 @@
                 <configuration>
                     <encoding></encoding>
                     <verbose>true</verbose>
-                    <sourceDestDir>src/main/java</sourceDestDir>
+                    <sourceDestDir>src/main/java/WSDL</sourceDestDir>
                     <wsdlUrls>
                         <wsdlUrl>${endpointwsdl}</wsdlUrl>
                     </wsdlUrls>

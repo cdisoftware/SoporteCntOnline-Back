@@ -1,3 +1,4 @@
+InvocaWSDL\SOAPConnectClient.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaLogConsolaServiceImplementacion.class
 com\cdi\SoporteCntOnlineBack\Entity\ConsultaInfoUserEntity.class
 META-INF\spring-configuration-metadata.json
@@ -6,6 +7,7 @@ org\tempuri\RegistroFacturaResponse.class
 com\cdi\SoporteCntOnlineBack\Entity\PaCconsultaFacturasErrorEntity.class
 org\tempuri\ValidaFacturaAutoResponse.class
 org\tempuri\WsCOLFEFTSoap.class
+InvocaWSDL\ConfigurationHello.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaCdepartamentosServiceImplementacion.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaConsultaEmpresasServiceImplementacion.class
 org\tempuri\ConsultaXMLResponse.class
