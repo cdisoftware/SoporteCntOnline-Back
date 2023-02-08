@@ -6,6 +6,7 @@ import com.cdi.SoporteCntOnlineBack.Services.GenerarXMLService;
 import org.junit.Before;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.stereotype.Service;
 import org.tempuri.GenerarXMLFacturacion;
@@ -17,29 +18,44 @@ public class GenerarXMLServiceImplementacion implements GenerarXMLService {
     String Respuesta;
 
     @Autowired
-    private SOAPConnectClient client;
+    private SOAPConnectClient Cliente;
 
     @Value("${WSDL.SOAPClient}")
     private String clientEndPoint;
-    
-    private Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
-    @Before
-    public void init() throws Exception{
-        marshaller.setPackagesToScan("WSDL.org.tempuri");
-        marshaller.afterPropertiesSet();
+
+    @Autowired
+    Jaxb2Marshaller marshaller;
+
+    @Bean
+    public Jaxb2Marshaller marshallerMtd() {
+        Jaxb2Marshaller marsh = new Jaxb2Marshaller();
+        marsh.setContextPath("org.tempuri");
+        return marsh;
+    }
+
+    @Bean
+    public SOAPConnectClient soap(Jaxb2Marshaller marshaller) {
+        SOAPConnectClient client = new SOAPConnectClient();
+        client.setDefaultUri(clientEndPoint);
+        client.setMarshaller(marshaller);
+        client.setUnmarshaller(marshaller);
+        return client;
     }
 
     @Override
     public String GneraXMLFE(GenerarXMLEntity entidad) {
         try {
-            GenerarXMLFacturacion request = new GenerarXMLFacturacion();
-            request.setReg("212");
-            request.setNumFac("2785");
-            request.setTipo("fc");
-            request.setPrefijo("FEVC");
+            marshaller = marshallerMtd();
+            Cliente = soap(marshaller);
 
-            GenerarXMLFacturacionResponse respu = (GenerarXMLFacturacionResponse) client.callWebServices(clientEndPoint, request);
-            
+            GenerarXMLFacturacion request = new GenerarXMLFacturacion();
+            request.setReg(entidad.getReg());
+            request.setNumFac(entidad.getNumFac());
+            request.setTipo(entidad.getTipo());
+            request.setPrefijo(entidad.getPrefijo());
+
+            GenerarXMLFacturacionResponse respu = (GenerarXMLFacturacionResponse) Cliente.callWebServices(clientEndPoint, request);
+
             return Respuesta = "Siiiiiiii";
         } catch (Exception ex) {
             return Respuesta = "Error:" + ex.getMessage();

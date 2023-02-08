@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://34.215.136.170/FE_WS_FT/wsCOLFE_FT.asmx?WSDL" uri="wsdl/34.215.136.170/FE_WS_FT/wsCOLFE_FT.asmx.wsdl"/>
+</catalog>

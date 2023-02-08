@@ -17,7 +17,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <endpointwsdl>http://34.215.136.170/FE_WS_FT/wsCOLFE_FT.asmx?WSDL</endpointwsdl>
+        <endpointwsdl>http://localhost:53911/wsCOLFE_FT.asmx?WSDL</endpointwsdl>
     </properties>
 
     <dependencies>
@@ -152,6 +152,19 @@
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <targetPath>META-INF</targetPath>
+                <directory>src</directory>
+                <includes>
+                    <include>jax-ws-catalog.xml</include>
+                    <include>wsdl/**</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -187,7 +200,7 @@
                 <configuration>
                     <xdebug>true</xdebug>
                     <wsdlUrls>
-                        <wsdlUrl>http://www.dneonline.com/calculator.asmx?WSDL</wsdlUrl>
+                        <wsdlUrl>http://localhost:53911/wsCOLFE_FT.asmx?WSDL</wsdlUrl>
                     </wsdlUrls>
                 </configuration>
             </plugin>
@@ -207,7 +220,7 @@
                 <configuration>
                     <encoding></encoding>
                     <verbose>true</verbose>
-                    <sourceDestDir>src/main/java/WSDL</sourceDestDir>
+                    <sourceDestDir>src/main/java</sourceDestDir>
                     <wsdlUrls>
                         <wsdlUrl>${endpointwsdl}</wsdlUrl>
                     </wsdlUrls>
