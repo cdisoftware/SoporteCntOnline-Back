@@ -17,7 +17,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <endpointwsdl>http://localhost:53911/wsCOLFE_FT.asmx?WSDL</endpointwsdl>
+        <endpointwsdl>http://34.215.136.170/FE_WS_FT/wsCOLFE_FT.asmx?WSDL</endpointwsdl>
     </properties>
 
     <dependencies>
@@ -200,7 +200,7 @@
                 <configuration>
                     <xdebug>true</xdebug>
                     <wsdlUrls>
-                        <wsdlUrl>http://localhost:53911/wsCOLFE_FT.asmx?WSDL</wsdlUrl>
+                        <wsdlUrl>http://34.215.136.170/FE_WS_FT/wsCOLFE_FT.asmx?WSDL</wsdlUrl>
                     </wsdlUrls>
                 </configuration>
             </plugin>

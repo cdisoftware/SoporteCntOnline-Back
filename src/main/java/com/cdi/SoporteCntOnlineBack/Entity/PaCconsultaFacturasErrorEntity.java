@@ -18,36 +18,36 @@ import lombok.Data;
 public class PaCconsultaFacturasErrorEntity {
 
     @Id
+    @JsonProperty("NumeroFactura")
+    public String NumeroFactura;
+    
     @JsonProperty("IdCol")
-    public Integer IdCol;
-
+    public String IdCol;
+    
     @JsonProperty("Nombre")
     public String Nombre;
-    
-    @JsonProperty("NumeroFactura")
-    public Integer NumeroFactura;
-    
-    @JsonProperty("NitEmpresa")
-    public String NitEmpresa;
-    
+
     @JsonProperty("Prefijo")
     public String Prefijo;
-    
+
+    @JsonProperty("NitEmpresa")
+    public String NitEmpresa;
+
     @JsonProperty("NitCliente")
     public String NitCliente;
-    
+
     @JsonProperty("MailCliente")
     public String MailCliente;
-    
+
     @JsonProperty("NombreCliente")
     public String NombreCliente;
-    
+
     @JsonProperty("Fecha")
     public String Fecha;
-    
+
     @JsonProperty("Observaciones")
     public String Observaciones;
-    
+
     @JsonProperty("Error")
     public String Error;
 }
