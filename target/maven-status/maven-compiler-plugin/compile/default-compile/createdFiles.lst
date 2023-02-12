@@ -1,4 +1,3 @@
-InvocaWSDL\SOAPConnectClient.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaLogConsolaServiceImplementacion.class
 com\cdi\SoporteCntOnlineBack\Entity\ConsultaInfoUserEntity.class
 META-INF\spring-configuration-metadata.json
@@ -6,8 +5,6 @@ com\cdi\SoporteCntOnlineBack\Entity\PaConsultaProyectosSoporteEntity.class
 org\tempuri\RegistroFacturaResponse.class
 com\cdi\SoporteCntOnlineBack\Entity\PaCconsultaFacturasErrorEntity.class
 org\tempuri\ValidaFacturaAutoResponse.class
-org\tempuri\WsCOLFEFTSoap.class
-InvocaWSDL\ConfigurationHello.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaCdepartamentosServiceImplementacion.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaConsultaEmpresasServiceImplementacion.class
 org\tempuri\ConsultaXMLResponse.class
@@ -27,13 +24,13 @@ com\cdi\SoporteCntOnlineBack\Services\PaCActivacionNEService.class
 org\tempuri\GenerarXMLFacturacion.class
 com\cdi\SoporteCntOnlineBack\Entity\PaCActivacionNEEntity.class
 com\cdi\SoporteCntOnlineBack\Services\ConsultaInfoUserService.class
-org\tempuri\WsCOLFEFT.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaConsFacPendientePdfXmlServiceImplementacion.class
 com\cdi\SoporteCntOnlineBack\Services\PaCmunicipiosService.class
 com\cdi\SoporteCntOnlineBack\Entity\PaCActivacionDSEntity.class
 com\cdi\SoporteCntOnlineBack\Services\PaConsultaEmpresasService.class
 com\cdi\SoporteCntOnlineBack\Services\PaCModEmpresasService.class
 com\cdi\SoporteCntOnlineBack\Services\PaLogConsolaService.class
+InvocaWSDL\SoapClient.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\ConsultaInfoUserServiceImplementacion.class
 org\tempuri\RegistroFactura.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaCpaisesFacturacionServiceImplementacion.class
@@ -43,6 +40,7 @@ org\tempuri\ConsultaPDFResponse.class
 com\cdi\SoporteCntOnlineBack\Entity\GenerarXMLEntity.class
 com\cdi\SoporteCntOnlineBack\Entity\PaConsultaEmpresasEntity.class
 com\cdi\SoporteCntOnlineBack\BasicApplication.class
+InvocaWSDL\SoapConfiguration.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaCconsultaFacturasErrorServiceImplementacion.class
 com\cdi\SoporteCntOnlineBack\Services\PaConsultaProyectosSoporteService.class
 com\cdi\SoporteCntOnlineBack\Entity\EnvioSmsItCloudEntity.class
@@ -61,5 +59,6 @@ com\cdi\SoporteCntOnlineBack\Services\PaConsFacPendientePdfXmlService.class
 com\cdi\SoporteCntOnlineBack\Services\PaCActivacionDSService.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\GenerarXMLServiceImplementacion.class
 com\cdi\SoporteCntOnlineBack\Controller\Controller.class
+InvocaWSDL\SoapClientController.class
 com\cdi\SoporteCntOnlineBack\Entity\PaCModEmpresasEntity.class
 org\tempuri\GenerarXMLFacturacionResponse.class

@@ -1,3 +1,10 @@
+//
+// Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
+// Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+// Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+// Generado el: 2023.02.11 a las 08:41:33 PM COT 
+//
+
 
 package org.tempuri;
 
@@ -30,35 +37,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link RegistroFactura }
-     * 
-     */
-    public RegistroFactura createRegistroFactura() {
-        return new RegistroFactura();
-    }
-
-    /**
      * Create an instance of {@link RegistroFacturaResponse }
      * 
      */
     public RegistroFacturaResponse createRegistroFacturaResponse() {
         return new RegistroFacturaResponse();
-    }
-
-    /**
-     * Create an instance of {@link GenerarXMLFacturacion }
-     * 
-     */
-    public GenerarXMLFacturacion createGenerarXMLFacturacion() {
-        return new GenerarXMLFacturacion();
-    }
-
-    /**
-     * Create an instance of {@link GenerarXMLFacturacionResponse }
-     * 
-     */
-    public GenerarXMLFacturacionResponse createGenerarXMLFacturacionResponse() {
-        return new GenerarXMLFacturacionResponse();
     }
 
     /**
@@ -70,11 +53,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ValidaFacturaAutoResponse }
+     * Create an instance of {@link GenerarXMLFacturacionResponse }
      * 
      */
-    public ValidaFacturaAutoResponse createValidaFacturaAutoResponse() {
-        return new ValidaFacturaAutoResponse();
+    public GenerarXMLFacturacionResponse createGenerarXMLFacturacionResponse() {
+        return new GenerarXMLFacturacionResponse();
     }
 
     /**
@@ -86,11 +69,35 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link RegistroFactura }
+     * 
+     */
+    public RegistroFactura createRegistroFactura() {
+        return new RegistroFactura();
+    }
+
+    /**
+     * Create an instance of {@link ValidaFacturaAutoResponse }
+     * 
+     */
+    public ValidaFacturaAutoResponse createValidaFacturaAutoResponse() {
+        return new ValidaFacturaAutoResponse();
+    }
+
+    /**
      * Create an instance of {@link ConsultaXMLResponse }
      * 
      */
     public ConsultaXMLResponse createConsultaXMLResponse() {
         return new ConsultaXMLResponse();
+    }
+
+    /**
+     * Create an instance of {@link GenerarXMLFacturacion }
+     * 
+     */
+    public GenerarXMLFacturacion createGenerarXMLFacturacion() {
+        return new GenerarXMLFacturacion();
     }
 
     /**

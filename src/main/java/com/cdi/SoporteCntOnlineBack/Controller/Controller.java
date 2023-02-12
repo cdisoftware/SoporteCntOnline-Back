@@ -2,7 +2,6 @@ package com.cdi.SoporteCntOnlineBack.Controller;
 
 import com.cdi.SoporteCntOnlineBack.Entity.ConsultaInfoUserEntity;
 import com.cdi.SoporteCntOnlineBack.Entity.EnvioSmsItCloudEntity;
-import com.cdi.SoporteCntOnlineBack.Entity.GenerarXMLEntity;
 import com.cdi.SoporteCntOnlineBack.Entity.PaCActivacionDSEntity;
 import com.cdi.SoporteCntOnlineBack.Entity.PaCActivacionFEEntity;
 import com.cdi.SoporteCntOnlineBack.Entity.PaCActivacionNEEntity;
@@ -17,7 +16,6 @@ import com.cdi.SoporteCntOnlineBack.Entity.PaCpaisesFacturacionEntity;
 import com.cdi.SoporteCntOnlineBack.Entity.PaLogConsolaEntity;
 import com.cdi.SoporteCntOnlineBack.Services.ConsultaInfoUserService;
 import com.cdi.SoporteCntOnlineBack.Services.EnvioSmsItCloudServices;
-import com.cdi.SoporteCntOnlineBack.Services.GenerarXMLService;
 import com.cdi.SoporteCntOnlineBack.Services.PaCActivacionDSService;
 import com.cdi.SoporteCntOnlineBack.Services.PaCActivacionFEService;
 import com.cdi.SoporteCntOnlineBack.Services.PaCActivacionNEService;
@@ -89,8 +87,7 @@ public class Controller {
     @Autowired
     PaCmunicipiosService servicePaCmunicipiosService;
     
-    @Autowired
-    GenerarXMLService serviceGenerarXMLService;
+    
 
     @PostMapping("/enviosmsitcloud")
     public String EnvioSms(
@@ -195,9 +192,9 @@ public class Controller {
     }
     
     //Consume EndPoint Facturacion
-    @PostMapping("/GenXmlFacturacion")
+    /*@PostMapping("/GenXmlFacturacion")
     public String GenXML(
             @RequestBody GenerarXMLEntity entidad) {
-        return serviceGenerarXMLService.GneraXMLFE(entidad);
-    }
+        return servicesoapClient.GeneraXml(entidad);
+    }*/
 }
