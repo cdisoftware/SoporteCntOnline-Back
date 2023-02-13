@@ -1,12 +1,12 @@
 //
-// Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
+// Este archivo ha sido generado por la arquitectura JavaTM para la implantaciï¿½n de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2023.02.13 a las 02:49:06 PM COT 
+// Todas las modificaciones realizadas en este archivo se perderï¿½n si se vuelve a compilar el esquema de origen. 
+// Generado el: 2023.02.13 a las 02:21:39 PM COT 
 //
 
 
-package org.tempuri;
+package WSDLNE.org.tempuri;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="RegistroFacturaResult" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="ReprocesaNominaResult" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -36,36 +36,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "registroFacturaResult"
+    "reprocesaNominaResult"
 })
-@XmlRootElement(name = "RegistroFacturaResponse")
-public class RegistroFacturaResponse {
+@XmlRootElement(name = "ReprocesaNominaResponse")
+public class ReprocesaNominaResponse {
 
-    @XmlElement(name = "RegistroFacturaResult")
-    protected String registroFacturaResult;
+    @XmlElement(name = "ReprocesaNominaResult")
+    protected String reprocesaNominaResult;
 
     /**
-     * Obtiene el valor de la propiedad registroFacturaResult.
+     * Obtiene el valor de la propiedad reprocesaNominaResult.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getRegistroFacturaResult() {
-        return registroFacturaResult;
+    public String getReprocesaNominaResult() {
+        return reprocesaNominaResult;
     }
 
     /**
-     * Define el valor de la propiedad registroFacturaResult.
+     * Define el valor de la propiedad reprocesaNominaResult.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setRegistroFacturaResult(String value) {
-        this.registroFacturaResult = value;
+    public void setReprocesaNominaResult(String value) {
+        this.reprocesaNominaResult = value;
     }
 
 }

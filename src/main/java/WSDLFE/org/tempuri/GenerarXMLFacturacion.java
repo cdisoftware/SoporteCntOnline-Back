@@ -1,12 +1,12 @@
 //
-// Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
+// Este archivo ha sido generado por la arquitectura JavaTM para la implantaciï¿½n de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2023.02.13 a las 02:49:06 PM COT 
+// Todas las modificaciones realizadas en este archivo se perderï¿½n si se vuelve a compilar el esquema de origen. 
+// Generado el: 2023.02.13 a las 02:21:18 PM COT 
 //
 
 
-package org.tempuri;
+package WSDLFE.org.tempuri;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -29,7 +29,6 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="NumFac" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Tipo" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Prefijo" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="FechaNC" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -43,11 +42,10 @@ import javax.xml.bind.annotation.XmlType;
     "reg",
     "numFac",
     "tipo",
-    "prefijo",
-    "fechaNC"
+    "prefijo"
 })
-@XmlRootElement(name = "RegistroFactura")
-public class RegistroFactura {
+@XmlRootElement(name = "GenerarXMLFacturacion")
+public class GenerarXMLFacturacion {
 
     @XmlElement(name = "Reg")
     protected String reg;
@@ -57,8 +55,6 @@ public class RegistroFactura {
     protected String tipo;
     @XmlElement(name = "Prefijo")
     protected String prefijo;
-    @XmlElement(name = "FechaNC")
-    protected String fechaNC;
 
     /**
      * Obtiene el valor de la propiedad reg.
@@ -154,30 +150,6 @@ public class RegistroFactura {
      */
     public void setPrefijo(String value) {
         this.prefijo = value;
-    }
-
-    /**
-     * Obtiene el valor de la propiedad fechaNC.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFechaNC() {
-        return fechaNC;
-    }
-
-    /**
-     * Define el valor de la propiedad fechaNC.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFechaNC(String value) {
-        this.fechaNC = value;
     }
 
 }

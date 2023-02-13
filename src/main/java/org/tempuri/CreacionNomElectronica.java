@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2023.02.13 a las 02:49:06 PM COT 
+// Generado el: 2023.02.13 a las 02:49:32 PM COT 
 //
 
 
@@ -25,11 +25,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="Reg" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="NumFac" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="Tipo" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Prefijo" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="FechaNC" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="Regional" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="FechaI" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="FechaF" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -40,97 +39,22 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "reg",
-    "numFac",
-    "tipo",
     "prefijo",
-    "fechaNC"
+    "regional",
+    "fechaI",
+    "fechaF"
 })
-@XmlRootElement(name = "RegistroFactura")
-public class RegistroFactura {
+@XmlRootElement(name = "CreacionNomElectronica")
+public class CreacionNomElectronica {
 
-    @XmlElement(name = "Reg")
-    protected String reg;
-    @XmlElement(name = "NumFac")
-    protected String numFac;
-    @XmlElement(name = "Tipo")
-    protected String tipo;
     @XmlElement(name = "Prefijo")
     protected String prefijo;
-    @XmlElement(name = "FechaNC")
-    protected String fechaNC;
-
-    /**
-     * Obtiene el valor de la propiedad reg.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getReg() {
-        return reg;
-    }
-
-    /**
-     * Define el valor de la propiedad reg.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setReg(String value) {
-        this.reg = value;
-    }
-
-    /**
-     * Obtiene el valor de la propiedad numFac.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getNumFac() {
-        return numFac;
-    }
-
-    /**
-     * Define el valor de la propiedad numFac.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setNumFac(String value) {
-        this.numFac = value;
-    }
-
-    /**
-     * Obtiene el valor de la propiedad tipo.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTipo() {
-        return tipo;
-    }
-
-    /**
-     * Define el valor de la propiedad tipo.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTipo(String value) {
-        this.tipo = value;
-    }
+    @XmlElement(name = "Regional")
+    protected String regional;
+    @XmlElement(name = "FechaI")
+    protected String fechaI;
+    @XmlElement(name = "FechaF")
+    protected String fechaF;
 
     /**
      * Obtiene el valor de la propiedad prefijo.
@@ -157,27 +81,75 @@ public class RegistroFactura {
     }
 
     /**
-     * Obtiene el valor de la propiedad fechaNC.
+     * Obtiene el valor de la propiedad regional.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getFechaNC() {
-        return fechaNC;
+    public String getRegional() {
+        return regional;
     }
 
     /**
-     * Define el valor de la propiedad fechaNC.
+     * Define el valor de la propiedad regional.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setFechaNC(String value) {
-        this.fechaNC = value;
+    public void setRegional(String value) {
+        this.regional = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad fechaI.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getFechaI() {
+        return fechaI;
+    }
+
+    /**
+     * Define el valor de la propiedad fechaI.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setFechaI(String value) {
+        this.fechaI = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad fechaF.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getFechaF() {
+        return fechaF;
+    }
+
+    /**
+     * Define el valor de la propiedad fechaF.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setFechaF(String value) {
+        this.fechaF = value;
     }
 
 }

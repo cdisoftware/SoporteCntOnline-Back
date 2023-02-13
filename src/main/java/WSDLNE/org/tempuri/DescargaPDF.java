@@ -1,16 +1,15 @@
 //
-// Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
+// Este archivo ha sido generado por la arquitectura JavaTM para la implantaciï¿½n de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2023.02.13 a las 02:49:06 PM COT 
+// Todas las modificaciones realizadas en este archivo se perderï¿½n si se vuelve a compilar el esquema de origen. 
+// Generado el: 2023.02.13 a las 02:21:39 PM COT 
 //
 
 
-package org.tempuri;
+package WSDLNE.org.tempuri;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
@@ -25,10 +24,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="Username" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="Password" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="Prefijo" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="NumeroFactura" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="usuario" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="contrasena" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="prefijo" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="numero" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -39,69 +38,65 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "username",
-    "password",
+    "usuario",
+    "contrasena",
     "prefijo",
-    "numeroFactura"
+    "numero"
 })
-@XmlRootElement(name = "ConsultaXML")
-public class ConsultaXML {
+@XmlRootElement(name = "DescargaPDF")
+public class DescargaPDF {
 
-    @XmlElement(name = "Username")
-    protected String username;
-    @XmlElement(name = "Password")
-    protected String password;
-    @XmlElement(name = "Prefijo")
+    protected String usuario;
+    protected String contrasena;
     protected String prefijo;
-    @XmlElement(name = "NumeroFactura")
-    protected String numeroFactura;
+    protected String numero;
 
     /**
-     * Obtiene el valor de la propiedad username.
+     * Obtiene el valor de la propiedad usuario.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getUsername() {
-        return username;
+    public String getUsuario() {
+        return usuario;
     }
 
     /**
-     * Define el valor de la propiedad username.
+     * Define el valor de la propiedad usuario.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setUsername(String value) {
-        this.username = value;
+    public void setUsuario(String value) {
+        this.usuario = value;
     }
 
     /**
-     * Obtiene el valor de la propiedad password.
+     * Obtiene el valor de la propiedad contrasena.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getPassword() {
-        return password;
+    public String getContrasena() {
+        return contrasena;
     }
 
     /**
-     * Define el valor de la propiedad password.
+     * Define el valor de la propiedad contrasena.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setPassword(String value) {
-        this.password = value;
+    public void setContrasena(String value) {
+        this.contrasena = value;
     }
 
     /**
@@ -129,27 +124,27 @@ public class ConsultaXML {
     }
 
     /**
-     * Obtiene el valor de la propiedad numeroFactura.
+     * Obtiene el valor de la propiedad numero.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getNumeroFactura() {
-        return numeroFactura;
+    public String getNumero() {
+        return numero;
     }
 
     /**
-     * Define el valor de la propiedad numeroFactura.
+     * Define el valor de la propiedad numero.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setNumeroFactura(String value) {
-        this.numeroFactura = value;
+    public void setNumero(String value) {
+        this.numero = value;
     }
 
 }

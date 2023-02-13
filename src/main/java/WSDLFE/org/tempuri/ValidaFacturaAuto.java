@@ -1,12 +1,12 @@
 //
-// Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
+// Este archivo ha sido generado por la arquitectura JavaTM para la implantaciï¿½n de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2023.02.13 a las 02:49:06 PM COT 
+// Todas las modificaciones realizadas en este archivo se perderï¿½n si se vuelve a compilar el esquema de origen. 
+// Generado el: 2023.02.13 a las 02:21:18 PM COT 
 //
 
 
-package org.tempuri;
+package WSDLFE.org.tempuri;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -27,9 +27,7 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence>
  *         &lt;element name="Reg" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="NumFac" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="Tipo" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="Prefijo" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="FechaNC" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="codVerifica" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -42,23 +40,16 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = {
     "reg",
     "numFac",
-    "tipo",
-    "prefijo",
-    "fechaNC"
+    "codVerifica"
 })
-@XmlRootElement(name = "RegistroFactura")
-public class RegistroFactura {
+@XmlRootElement(name = "ValidaFacturaAuto")
+public class ValidaFacturaAuto {
 
     @XmlElement(name = "Reg")
     protected String reg;
     @XmlElement(name = "NumFac")
     protected String numFac;
-    @XmlElement(name = "Tipo")
-    protected String tipo;
-    @XmlElement(name = "Prefijo")
-    protected String prefijo;
-    @XmlElement(name = "FechaNC")
-    protected String fechaNC;
+    protected String codVerifica;
 
     /**
      * Obtiene el valor de la propiedad reg.
@@ -109,75 +100,27 @@ public class RegistroFactura {
     }
 
     /**
-     * Obtiene el valor de la propiedad tipo.
+     * Obtiene el valor de la propiedad codVerifica.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getTipo() {
-        return tipo;
+    public String getCodVerifica() {
+        return codVerifica;
     }
 
     /**
-     * Define el valor de la propiedad tipo.
+     * Define el valor de la propiedad codVerifica.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setTipo(String value) {
-        this.tipo = value;
-    }
-
-    /**
-     * Obtiene el valor de la propiedad prefijo.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPrefijo() {
-        return prefijo;
-    }
-
-    /**
-     * Define el valor de la propiedad prefijo.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPrefijo(String value) {
-        this.prefijo = value;
-    }
-
-    /**
-     * Obtiene el valor de la propiedad fechaNC.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFechaNC() {
-        return fechaNC;
-    }
-
-    /**
-     * Define el valor de la propiedad fechaNC.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFechaNC(String value) {
-        this.fechaNC = value;
+    public void setCodVerifica(String value) {
+        this.codVerifica = value;
     }
 
 }

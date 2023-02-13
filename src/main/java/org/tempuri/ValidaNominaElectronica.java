@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2023.02.13 a las 02:49:06 PM COT 
+// Generado el: 2023.02.13 a las 02:49:32 PM COT 
 //
 
 
@@ -10,7 +10,6 @@ package org.tempuri;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
@@ -25,9 +24,9 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="Reg" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="NumFac" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="codVerifica" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="usuario" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="contrasena" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="transactionID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -38,89 +37,87 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "reg",
-    "numFac",
-    "codVerifica"
+    "usuario",
+    "contrasena",
+    "transactionID"
 })
-@XmlRootElement(name = "ValidaFacturaAuto")
-public class ValidaFacturaAuto {
+@XmlRootElement(name = "ValidaNominaElectronica")
+public class ValidaNominaElectronica {
 
-    @XmlElement(name = "Reg")
-    protected String reg;
-    @XmlElement(name = "NumFac")
-    protected String numFac;
-    protected String codVerifica;
+    protected String usuario;
+    protected String contrasena;
+    protected String transactionID;
 
     /**
-     * Obtiene el valor de la propiedad reg.
+     * Obtiene el valor de la propiedad usuario.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getReg() {
-        return reg;
+    public String getUsuario() {
+        return usuario;
     }
 
     /**
-     * Define el valor de la propiedad reg.
+     * Define el valor de la propiedad usuario.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setReg(String value) {
-        this.reg = value;
+    public void setUsuario(String value) {
+        this.usuario = value;
     }
 
     /**
-     * Obtiene el valor de la propiedad numFac.
+     * Obtiene el valor de la propiedad contrasena.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getNumFac() {
-        return numFac;
+    public String getContrasena() {
+        return contrasena;
     }
 
     /**
-     * Define el valor de la propiedad numFac.
+     * Define el valor de la propiedad contrasena.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setNumFac(String value) {
-        this.numFac = value;
+    public void setContrasena(String value) {
+        this.contrasena = value;
     }
 
     /**
-     * Obtiene el valor de la propiedad codVerifica.
+     * Obtiene el valor de la propiedad transactionID.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getCodVerifica() {
-        return codVerifica;
+    public String getTransactionID() {
+        return transactionID;
     }
 
     /**
-     * Define el valor de la propiedad codVerifica.
+     * Define el valor de la propiedad transactionID.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setCodVerifica(String value) {
-        this.codVerifica = value;
+    public void setTransactionID(String value) {
+        this.transactionID = value;
     }
 
 }

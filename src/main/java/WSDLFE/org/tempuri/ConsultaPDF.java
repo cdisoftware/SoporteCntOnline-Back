@@ -1,12 +1,12 @@
 //
-// Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
+// Este archivo ha sido generado por la arquitectura JavaTM para la implantaciï¿½n de la referencia de enlace (JAXB) XML v2.2.8-b130911.1802 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2023.02.13 a las 02:49:06 PM COT 
+// Todas las modificaciones realizadas en este archivo se perderï¿½n si se vuelve a compilar el esquema de origen. 
+// Generado el: 2023.02.13 a las 02:21:18 PM COT 
 //
 
 
-package org.tempuri;
+package WSDLFE.org.tempuri;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -44,8 +44,8 @@ import javax.xml.bind.annotation.XmlType;
     "prefijo",
     "numeroFactura"
 })
-@XmlRootElement(name = "ConsultaXML")
-public class ConsultaXML {
+@XmlRootElement(name = "ConsultaPDF")
+public class ConsultaPDF {
 
     @XmlElement(name = "Username")
     protected String username;
