@@ -8,7 +8,7 @@ import lombok.Data;
 
 @Entity
 @Data
-public class GenerarXMLEntity implements Serializable {
+public class GenerarXmlFeEntity implements Serializable {
     @Id
     @JsonProperty("Reg")
     public String Reg;
