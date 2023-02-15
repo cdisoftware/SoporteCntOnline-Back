@@ -38,6 +38,7 @@ com\cdi\SoporteCntOnlineBack\Entity\EnvioSmsItCloudEntity.class
 WSDLNE\org\tempuri\DescargaPDF.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaConsultaProyectosSoporteServiceImplementacion.class
 WSDLFE\org\tempuri\RegistroFactura.class
+WSDLDS\org\tempuri\ObjectFactory.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\EnvioSmsItCloudServicesImplemtacion.class
 WSDLNE\org\tempuri\CreacionAjusteResponse.class
 com\cdi\SoporteCntOnlineBack\Services\GenerarXmlNeService.class
@@ -46,8 +47,10 @@ com\cdi\SoporteCntOnlineBack\ServicesImplementacion\GenerarXmlNeServiceImplement
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaCModEmpresasServiceImplementacion.class
 com\cdi\SoporteCntOnlineBack\Services\PaConsFacPendientePdfXmlService.class
 com\cdi\SoporteCntOnlineBack\Services\PaCActivacionDSService.class
+WSDLDS\org\tempuri\CreacionDocSoporteResponse.class
 WSDLFE\org\tempuri\ConsultaPDF.class
 WSDLNE\org\tempuri\DescargaXML.class
+WSDLDS\org\tempuri\package-info.class
 WSDLNE\org\tempuri\DescargaXMLResponse.class
 org\tempuri\ValidaNominaElectronica.class
 org\tempuri\ReprocesaNominaResponse.class
@@ -101,8 +104,11 @@ WSDLFE\org\tempuri\ConsultaPDFResponse.class
 com\cdi\SoporteCntOnlineBack\Services\PaCpaisesFacturacionService.class
 com\cdi\SoporteCntOnlineBack\Services\PaCdepartamentosService.class
 org\tempuri\ValidaFacturaAuto.class
+WSDLDS\org\tempuri\GenXML.class
 org\tempuri\ConsultaXML.class
+WSDLDS\org\tempuri\GenXMLResponse.class
 com\cdi\SoporteCntOnlineBack\Controller\Controller.class
+WSDLDS\org\tempuri\CreacionDocSoporte.class
 WSDLFE\org\tempuri\ConsultaXMLResponse.class
 com\cdi\SoporteCntOnlineBack\Entity\GenerarXmlNeEntity.class
 com\cdi\SoporteCntOnlineBack\ServicesImplementacion\GenerarXmlDsServiceImplementacion.class

@@ -13,8 +13,10 @@ C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnline
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaCActivacionDSEntity.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\org\tempuri\DescargaXML.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaCActivacionNEServiceImplementacion.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\WSDLDS\org\tempuri\GenXML.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\ConsultaInfoUserService.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\PaLogConsolaService.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\WSDLDS\org\tempuri\GenXMLResponse.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\WSDLFE\org\tempuri\RegistroFactura.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\ConsultaInfoUserEntity.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\GenerarXmlDsEntity.java
@@ -25,6 +27,7 @@ C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\org\tempuri\ConsultaXML.
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\org\tempuri\ReprocesaNomina.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\WSDLFE\org\tempuri\RegistroFacturaResponse.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\PaCModEmpresasService.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\WSDLDS\org\tempuri\ObjectFactory.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\WSDLFE\org\tempuri\ConsultaXMLResponse.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\PaCActivacionFEService.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\EnvioSmsItCloudEntity.java
@@ -95,8 +98,11 @@ C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnline
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Services\PaConsultaEmpresasService.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaConsultaEmpresasEntity.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\ServicesImplementacion\PaCModEmpresasServiceImplementacion.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\WSDLDS\org\tempuri\CreacionDocSoporteResponse.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaCconsultaFacturasErrorEntity.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\WSDLFE\org\tempuri\GenerarXMLFacturacion.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\WSDLDS\org\tempuri\package-info.java
+C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\WSDLDS\org\tempuri\CreacionDocSoporte.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\WSDLNE\org\tempuri\DescargaPDF.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaLogConsolaEntity.java
 C:\DesarolloCDI\CDI\SoporteCntOnline-Back\src\main\java\com\cdi\SoporteCntOnlineBack\Entity\PaConsultaProyectosSoporteEntity.java
