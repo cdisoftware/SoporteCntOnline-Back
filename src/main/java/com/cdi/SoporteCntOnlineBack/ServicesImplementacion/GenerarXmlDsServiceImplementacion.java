@@ -26,9 +26,9 @@ public class GenerarXmlDsServiceImplementacion implements GenerarXmlDsService{
             conectsoap = conf.soapConnector(march, "http://api.apptotrip.com/DS_WS/wsDS.asmx");
 
             GenXML request = new GenXML();
-            request.setRegional("12");
-            request.setFolio("15");
-            request.setPrefijo("DS");
+            request.setRegional(entidad.getRegional());
+            request.setFolio(entidad.getFolio());
+            request.setPrefijo(entidad.getPrefijo());
             GenXMLResponse response = (GenXMLResponse) conectsoap.callWebService("http://tempuri.org/GenXML", request);
 
             Respuesta = response.getGenXMLResult().toString();
