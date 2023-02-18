@@ -28,7 +28,7 @@ public class GenerarXmlFeServiceImplementacion implements GenerarXmlFeService {
             GenerarXMLFacturacion request = new GenerarXMLFacturacion();
             request.setReg(entidad.getReg());
             request.setNumFac(entidad.getNumFac());
-            request.setTipo(entidad.getTipo());
+            request.setTipo("fc");
             request.setPrefijo(entidad.getPrefijo());
 
             GenerarXMLFacturacionResponse response = (GenerarXMLFacturacionResponse) conectsoap.callWebService("http://tempuri.org/GenerarXMLFacturacion", request);
